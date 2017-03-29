@@ -1,4 +1,5 @@
 # min REST interface sample
+[![Build Status](https://travis-ci.org/jacob-mf/min-REST-interface.svg?branch=master)](https://travis-ci.org/jacob-mf/min-REST-interface)
 
 Welcome to a very simple and easy sample of a Sinatra application providing a REST
 API to a simple Ruby class model Article.
