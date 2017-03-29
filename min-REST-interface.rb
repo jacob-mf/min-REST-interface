@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-# @title min_REST_interface module 
+# min_REST_interface module project 
 #  A tiny REST interface built with Sinatra framework
 #Gem name 	Require statement 	Main class or module
 #ruby_parser 	require 'ruby_parser' 	RubyParser
 # simple_REST_interface        require 'simple_REST_interface'        SimpleRestApi
-# @version 0.2.2
+# @version 0.3.2
 # @author Luis Jacob Mariscal Fernández
 
 require 'sinatra'

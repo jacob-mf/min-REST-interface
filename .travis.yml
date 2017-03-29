@@ -1,7 +1,9 @@
 language: ruby
 rvm:
-  - 2.1.10
-  - 1.9.3
+  - jruby-19mode
+  - jruby-head
+  - ruby-head
+  - rbx
   - 2.2.6
   - 2.3.3
   - 2.4.0
@@ -12,3 +14,8 @@ install:
   - gem install test-unit
   - gem install sinatra
   - gem install rake
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+    - rvm: jruby-head
+- rvm: rbx
