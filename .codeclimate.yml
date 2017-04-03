@@ -18,13 +18,6 @@ engines:
     enabled: true
 ratings:
   paths:
-  - "**.css"
-  - "**.inc"
-  - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
   - "**.rb"
 exclude_paths:
 - test/
@@ -48,13 +41,6 @@ engines:
     enabled: true
 ratings:
   paths:
-  - "**.css"
-  - "**.inc"
-  - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
   - "**.rb"
 exclude_paths:
 - test/
@@ -78,17 +64,9 @@ engines:
     enabled: true
 ratings:
   paths:
-  - "**.css"
-  - "**.inc"
-  - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
   - "**.rb"
 exclude_paths:
 - test/
-- "doc/"
 ---
 engines:
   csslint:
@@ -109,17 +87,9 @@ engines:
     enabled: true
 ratings:
   paths:
-  - "**.css"
-  - "**.inc"
-  - "**.js"
-  - "**.jsx"
-  - "**.module"
-  - "**.php"
-  - "**.py"
   - "**.rb"
 exclude_paths:
 - test/
-- doc/
 diff --git a/.codeclimate.yml b/.codeclimate.yml
 index e69de29..b18362e 100644
 --- a/.codeclimate.yml
@@ -145,17 +115,9 @@ index e69de29..b18362e 100644
 +    enabled: true
 +ratings:
 +  paths:
-+  - "**.css"
-+  - "**.inc"
-+  - "**.js"
-+  - "**.jsx"
-+  - "**.module"
-+  - "**.php"
-+  - "**.py"
 +  - "**.rb"
 +exclude_paths:
 +- test/
-+- doc/
 diff --git a/.csslintrc b/.csslintrc
 index e69de29..aacba95 100644
 --- a/.csslintrc
