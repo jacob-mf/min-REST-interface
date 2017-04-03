@@ -18,7 +18,7 @@ class Article
   @@articles_cont = 0 # articles count 
   @@debug = true # define if debug mode is on/off
   attr_accessor :article # article id
-  attr_accessor  :worth  # worth description
+  attr_accessor :worth  # worth description
  
   # redefining create method new for Article with entry  @args[2]
   def new *args
@@ -55,8 +55,8 @@ post '/article' do
    :status => 400,
    :reason => 'Bad request: article field is required in JSON'
   }.to_json
- else # TODO status 200 if content is already available, test modes e.g.
-      # TODO status 204 if empty value '' sent in article field
+ else # Other alternative: status 200 if content is already available, test modes e.g.
+      # Other alternative: status 204 if empty value '' sent in article field
   the_article = Article.new(params['article'],params['worth']) 
   the_article.save
   headers["Location"] = "/article/#{the_article.article}"
