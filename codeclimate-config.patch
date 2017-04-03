@@ -33,7 +33,7 @@ index e69de29..b18362e 100644
 +  - "**.rb"
 +exclude_paths:
 +- test/
-+- doc/
++- "doc/"
 diff --git a/.csslintrc b/.csslintrc
 index e69de29..aacba95 100644
 --- a/.csslintrc
