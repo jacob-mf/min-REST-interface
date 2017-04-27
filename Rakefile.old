@@ -1,5 +1,5 @@
-# Rakefile
-
+# Rakefile old
+require_relative './min-REST-interface.rb'
 require 'rake'
 require 'rake/testtask'
 
